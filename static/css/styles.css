@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0b3d2e;
+  color: white;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+header h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-info {
+  text-align: center;
+  background-color: #124d3b;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.balance-info h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.balance-details {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #a6d5c0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.actions button {
+  background-color: #1c6c54;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.actions .highlight {
+  background-color: #00cc99;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0e4b37;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tabs .active-tab {
+  border-bottom: 2px solid #00cc99;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px 0;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  background-color: #155c47;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.transaction.pending {
+  background-color: #ffa500;
+  color: black;
+  font-weight: bold;
+}
+
+.amount {
+  font-weight: bold;
+}
